@@ -28,6 +28,9 @@ punchlineButton.addEventListener('click', () => {
         jokeContainer.appendChild(currentPunchline);
     }
 });
- 
+
+newJokeButton.addEventListener('click', () => {
+    fetchJokes();
+})
 
 fetchJokes();
