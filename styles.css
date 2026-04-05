@@ -1,0 +1,76 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fcd704, #ea980b);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    width: 1000px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+h1 {
+    font-size: 2.3rem;
+    margin-bottom: 2.0rem;
+}
+
+/* Joke box */
+.jokebox {
+    min-height: 100px;
+    margin-bottom: 1.5rem;
+    font-size: 30;
+}
+
+.jokebox p {
+    margin: 1.5rem 0;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+/* Button styles */
+#show-punchline {
+    background: #ff9800;
+    color: white;
+}
+
+#new-joke {
+    background: #4caf50;
+    color: white;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}

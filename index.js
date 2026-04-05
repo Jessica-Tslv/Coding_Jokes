@@ -1,4 +1,4 @@
-const jokeContainer = document.querySelector("div");
+const jokeContainer = document.querySelector(".jokebox");
 const punchlineButton = document.querySelector("#show-punchline");
 const newJokeButton = document.querySelector("#new-joke");
 
