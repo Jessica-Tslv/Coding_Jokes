@@ -16,4 +16,4 @@ I've used this project as a way to practice asynchronous functions and APIs in J
 
 - HTML
 - JavaScript (ES6+, Fetch API, async/await)
-- CSS - to be added
+- CSS
